@@ -23,9 +23,9 @@ videos:
   <h2>Screenshots</h2>
   <a href="">Download all as zip</a>
   <ul class="post-list">
-    {% for screen in site.static_files %}{% if screen.path contains 'screenshots' %}
+    {% for screen in site.static_files %}{% if screen.path contains 'press/screenshots' %}
       <li>
-        <img src="{{ screen.path }}"></img>
+        <img src="{{ site.baseurl }}/{{ screen.path }}"></img>
       </li>
     {% endif %}{% endfor %}
   </ul>
