@@ -1,0 +1,33 @@
+---
+layout: press
+videos:
+  - title: "Pre-beta Gameplay"
+    link: "https://youtube.com/embed/4gUOIF9Yi70"
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Press Kit</h1>
+
+  <h2>Videos</h2>
+  <ul class="post-list">
+    {% for video in page.videos %}
+      <li>
+        <h3 class="post-link">{{ video.title }}</h3>
+        <iframe width="560" height="315" src="{{ video.link }}" frameborder="0" allowfullscreen>
+        </iframe>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Screenshots</h2>
+  <a href="">Download all as zip</a>
+  <ul class="post-list">
+    {% for screen in site.static_files %}{% if screen.path contains 'screenshots' %}
+      <li>
+        <img src="{{ screen.path }}"></img>
+      </li>
+    {% endif %}{% endfor %}
+  </ul>
+
+</div>

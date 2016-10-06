@@ -123,7 +123,6 @@ blockquote {
 }
 
 
-
 /**
  * Code formatting
  */
@@ -172,7 +171,9 @@ pre {
     }
 }
 
-
+.page-content {
+    min-height: 400px;
+}
 
 /**
  * Clearfix

@@ -2,18 +2,20 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
+          <li><a href="{{ site.baseurl }}/">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/press">Press Kit</a></li>
+          <li><a href="/about">About</a></li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
+          <li>Stay Connected</li>
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -23,6 +25,16 @@
           {% if site.twitter_username %}
           <li>
             {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+          {% if site.fb_username %}
+          <li>
+            {% include icon-facebook.html username=site.fb_username %}
+          </li>
+          {% endif %}
+          {% if site.yt_username %}
+          <li>
+            {% include icon-youtube.html username=site.yt_username %}
           </li>
           {% endif %}
         </ul>
