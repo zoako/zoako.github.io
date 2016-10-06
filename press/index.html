@@ -1,5 +1,7 @@
 ---
 layout: press
+
+history: history.md
 videos:
   - title: "Pre-beta Gameplay"
     link: "https://youtube.com/embed/4gUOIF9Yi70"
@@ -8,7 +10,22 @@ videos:
 <div class="home">
 
   <h1 class="page-heading">Press Kit</h1>
+  <div class="navigation">
+    
+  </div>
 
+  <div class="fact-sheet">
+
+  </div>
+  <div class="project-description">
+  <p></p>
+  </div>
+
+  <div class="project-history">
+  {% markdown history.md %}
+  </div>
+
+  <div class="videos">
   <h2>Videos</h2>
   <ul class="post-list">
     {% for video in page.videos %}
@@ -19,7 +36,9 @@ videos:
       </li>
     {% endfor %}
   </ul>
+  </div>
 
+  <div class="screenshots">
   <h2>Screenshots</h2>
   <a href="">Download all as zip</a>
   <ul class="post-list">
@@ -29,5 +48,8 @@ videos:
       </li>
     {% endif %}{% endfor %}
   </ul>
+  </div>
+
+
 
 </div>
