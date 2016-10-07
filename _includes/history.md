@@ -1,7 +1,5 @@
-This is some markdown text
+Color Balls was initially conceptualized in 2013. The game is currently in open beta. 
 
-> This is a quote in it
+A Steam Greenlight submission for the PC version is planned in November 2016. 
 
-This is more text
-* bullet 1
-* bullet 2
+A final public release to storefronts is scheduled for Q2 2017.

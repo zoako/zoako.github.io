@@ -1,7 +1,8 @@
 ---
 layout: press
-
-history: history.md
+facts:
+  developer: Zoako Studios
+  loc: Boston, MA, USA
 videos:
   - title: "Pre-beta Gameplay"
     link: "https://youtube.com/embed/4gUOIF9Yi70"
@@ -11,21 +12,40 @@ videos:
 
   <h1 class="page-heading">Press Kit</h1>
   <div class="navigation">
-    
+    <ul class="nav-list">
+      <li><a href="#factsheet">Factsheet</a></li>
+      <li><a href="#description">Description</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#screenshots">Screenshots</a></li>
+      <li><a href="#branding">Branding</a></li>
+      <li><a href="#credits">Credits</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </div>
 
-  <div class="fact-sheet">
+  <div id="factsheet" class="press-block text">
+    <ul class=facts>
 
-  </div>
-  <div class="project-description">
-  <p></p>
+    </ul>
   </div>
 
-  <div class="project-history">
+  <div id="description" class="press-block text">
+  <h2>Description</h2>
+  {% markdown description.md %}
+  </div>
+
+  <div id="project-history" class="press-block text">
+  <h2>History</h2>
   {% markdown history.md %}
   </div>
 
-  <div class="videos">
+  <div id="features" class="press-block text">
+  <h2>Features</h2>
+  {% markdown features.md %}
+  </div>
+
+  <div id="videos">
   <h2>Videos</h2>
   <ul class="post-list">
     {% for video in page.videos %}
@@ -38,7 +58,7 @@ videos:
   </ul>
   </div>
 
-  <div class="screenshots">
+  <div id="screenshots">
   <h2>Screenshots</h2>
   <a href="">Download all as zip</a>
   <ul class="post-list">
@@ -50,6 +70,31 @@ videos:
   </ul>
   </div>
 
+  <div id="branding">
+  <h2>Logos & Icon</h2>
+  <a href="">Download all as zip</a>
+  <ul class="post-list">
+    {% for image in site.static_files %}{% if image.path contains 'press/branding' %}
+      <li>
+        <img src="{{ site.baseurl }}/{{ image.path }}"></img>
+      </li>
+    {% endif %}{% endfor %}
+  </ul>
+  </div>
 
+  <div id="about">
+  <h2>About Zoako Studio</h2>
+  {% markdown about_zk.md %}
+  </div>
+
+  <div id="credits">
+  <h2>Color Balls Credits</h2>
+  {% markdown credits.md %}
+  </div>
+
+  <div id="contact">
+  <h2>Contact</h2>
+  {% markdown contact.md %}
+  </div>
 
 </div>
