@@ -1,5 +1,5 @@
 ### Inquiries
-colorballs@zoako.com
+[colorballs@zoako.com](mailto:colorballs@zoako.com)
 
 ### Twitter
 [{{ site.twitter_username }}](https://twitter.com/{{ site.twitter_username }})

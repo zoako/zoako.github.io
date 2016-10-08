@@ -31,20 +31,45 @@ body {
  * Set `margin-bottom` to maintain vertical rhythm
  */
 h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
+blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
+    margin-top: $spacing-unit / 2;
+}
+
+p {
     margin-bottom: $spacing-unit / 2;
 }
 
+.navigation {
+    position: fixed;
+    left: 30px;
+    width: 200px;
+}
 
 
 /**
  * Images
  */
-img {
-    max-width: 100%;
+.image-container {
+    position: relative;
+    float: clear;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+ }
+
+.screenshot {
+    position: relative;
+    display: block;
+    float: left;
+    height: 200px;
+    width: 355px;
+    margin: 5px;
     vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 
@@ -157,6 +182,7 @@ pre {
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    min-width: 500px;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;

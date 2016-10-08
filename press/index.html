@@ -1,8 +1,5 @@
 ---
 layout: press
-facts:
-  developer: Zoako Studios
-  loc: Boston, MA, USA
 videos:
   - title: "Pre-beta Gameplay"
     link: "https://youtube.com/embed/4gUOIF9Yi70"
@@ -12,9 +9,11 @@ videos:
 
   <h1 class="page-heading">Press Kit</h1>
   <div class="navigation">
+    <h2>{{ page.facts.title }}</h2>
     <ul class="nav-list">
       <li><a href="#factsheet">Factsheet</a></li>
       <li><a href="#description">Description</a></li>
+      <li><a href="#history">History</a></li>
       <li><a href="#features">Features</a></li>
       <li><a href="#videos">Videos</a></li>
       <li><a href="#screenshots">Screenshots</a></li>
@@ -25,24 +24,22 @@ videos:
   </div>
 
   <div id="factsheet" class="press-block text">
-    <ul class=facts>
-
-    </ul>
+  {% markdown press/Color Balls/facts.md %}
   </div>
 
   <div id="description" class="press-block text">
   <h2>Description</h2>
-  {% markdown description.md %}
+  {% markdown press/Color Balls/description.md %}
   </div>
 
-  <div id="project-history" class="press-block text">
+  <div id="history" class="press-block text">
   <h2>History</h2>
-  {% markdown history.md %}
+  {% markdown press/Color Balls/history.md %}
   </div>
 
   <div id="features" class="press-block text">
   <h2>Features</h2>
-  {% markdown features.md %}
+  {% markdown press/Color Balls/features.md %}
   </div>
 
   <div id="videos">
@@ -61,40 +58,37 @@ videos:
   <div id="screenshots">
   <h2>Screenshots</h2>
   <a href="">Download all as zip</a>
-  <ul class="post-list">
+  <div class="image-container">
     {% for screen in site.static_files %}{% if screen.path contains 'press/screenshots' %}
-      <li>
-        <img src="{{ site.baseurl }}/{{ screen.path }}"></img>
-      </li>
+        <div  class="screenshot" 
+              style="background-image: url({{ site.baseurl }}/{{ screen.path }})"></div>
     {% endif %}{% endfor %}
-  </ul>
   </div>
 
   <div id="branding">
   <h2>Logos & Icon</h2>
   <a href="">Download all as zip</a>
-  <ul class="post-list">
+  <div class="image-container">
     {% for image in site.static_files %}{% if image.path contains 'press/branding' %}
-      <li>
-        <img src="{{ site.baseurl }}/{{ image.path }}"></img>
-      </li>
+        <div  class="screenshot" 
+              style="background-image: url({{ site.baseurl }}/{{ image.path }})"></div>
     {% endif %}{% endfor %}
   </ul>
   </div>
 
   <div id="about">
-  <h2>About Zoako Studio</h2>
-  {% markdown about_zk.md %}
+  <h2>About {{ site.developer }}</h2>
+  {% markdown press/Color Balls/about_developer.md %}
   </div>
 
   <div id="credits">
   <h2>Color Balls Credits</h2>
-  {% markdown credits.md %}
+  {% markdown press/Color Balls/credits.md %}
   </div>
 
   <div id="contact">
   <h2>Contact</h2>
-  {% markdown contact.md %}
+  {% markdown press/Color Balls/contact.md %}
   </div>
 
 </div>
