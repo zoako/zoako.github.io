@@ -1,32 +1,35 @@
 ---
 layout: press
+game:
+  title: Color Balls
 videos:
   - title: "Pre-beta Gameplay"
     link: "https://youtube.com/embed/4gUOIF9Yi70"
 ---
 
-<div class="home">
+<h1 class="page-heading">Press Kit</h1>
+<div class="navigation">
+  <h2>{{ page.facts.title }}</h2>
+  <ul class="nav-list">
+    <li><a href="#factsheet">Factsheet</a></li>
+    <li><a href="#description">Description</a></li>
+    <li><a href="#history">History</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#videos">Videos</a></li>
+    <li><a href="#screenshots">Screenshots</a></li>
+    <li><a href="#branding">Branding</a></li>
+    <li><a href="#credits">Credits</a></li>
+    <li><a href="#about">About {{ site.developer }}</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div>
 
-  <h1 class="page-heading">Press Kit</h1>
-  <div class="navigation">
-    <h2>{{ page.facts.title }}</h2>
-    <ul class="nav-list">
-      <li><a href="#factsheet">Factsheet</a></li>
-      <li><a href="#description">Description</a></li>
-      <li><a href="#history">History</a></li>
-      <li><a href="#features">Features</a></li>
-      <li><a href="#videos">Videos</a></li>
-      <li><a href="#screenshots">Screenshots</a></li>
-      <li><a href="#branding">Branding</a></li>
-      <li><a href="#credits">Credits</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </div>
+<div id="factsheet" class="press-block text">
+<h2>Factsheet</h2>
+{% markdown press/Color Balls/facts.md %}
+</div>
 
-  <div id="factsheet" class="press-block text">
-  {% markdown press/Color Balls/facts.md %}
-  </div>
-
+<div class="right-column">
   <div id="description" class="press-block text">
   <h2>Description</h2>
   {% markdown press/Color Balls/description.md %}
@@ -41,54 +44,64 @@ videos:
   <h2>Features</h2>
   {% markdown press/Color Balls/features.md %}
   </div>
+</div>
 
-  <div id="videos">
-  <h2>Videos</h2>
-  <ul class="post-list">
-    {% for video in page.videos %}
-      <li>
-        <h3 class="post-link">{{ video.title }}</h3>
-        <iframe width="560" height="315" src="{{ video.link }}" frameborder="0" allowfullscreen>
-        </iframe>
-      </li>
-    {% endfor %}
-  </ul>
-  </div>
+<div id="videos">
+<h2>Videos</h2>
+<ul class="post-list">
+  {% for video in page.videos %}
+    <li>
+      <h3 class="post-link">{{ video.title }}</h3>
+      <iframe width="560" height="315" src="{{ video.link }}" frameborder="0" allowfullscreen>
+      </iframe>
+    </li>
+  {% endfor %}
+</ul>
+Find more videos on our channel at {% include icon-youtube.html username=site.yt_username %}.
+</div>
 
-  <div id="screenshots">
-  <h2>Screenshots</h2>
-  <a href="">Download all as zip</a>
-  <div class="image-container">
-    {% for screen in site.static_files %}{% if screen.path contains 'press/screenshots' %}
-        <div  class="screenshot" 
-              style="background-image: url({{ site.baseurl }}/{{ screen.path }})"></div>
-    {% endif %}{% endfor %}
-  </div>
+<div id="screenshots">
+<h2>Screenshots</h2>
+<a href="">Download all as zip</a>
+<div class="image-container">
+  {% for screen in site.static_files %}{% if screen.path contains 'press/screenshots' %}
+      <div  class="screenshot" 
+            style="background-image: url({{ site.baseurl }}/{{ screen.path }})"></div>
+  {% endif %}{% endfor %}
+</div>
 
-  <div id="branding">
-  <h2>Logos & Icon</h2>
-  <a href="">Download all as zip</a>
-  <div class="image-container">
-    {% for image in site.static_files %}{% if image.path contains 'press/branding' %}
-        <div  class="screenshot" 
-              style="background-image: url({{ site.baseurl }}/{{ image.path }})"></div>
-    {% endif %}{% endfor %}
-  </ul>
-  </div>
+<div id="branding">
+<h2>Logos & Icon</h2>
+<a href="">Download all as zip</a>
+<div class="image-container">
+  {% for image in site.static_files %}{% if image.path contains 'press/branding' %}
+      <div  class="screenshot" 
+            style="background-image: url({{ site.baseurl }}/{{ image.path }})"></div>
+  {% endif %}{% endfor %}
+</ul>
+</div>
 
-  <div id="about">
-  <h2>About {{ site.developer }}</h2>
-  {% markdown press/Color Balls/about_developer.md %}
-  </div>
+<div id="about">
+<h2>About {{ site.developer }}</h2>
+{% markdown press/Color Balls/about_developer.md %}
+<p>Learn more about Zoako Studios <a href="{{ site.baseurl }}/about/">here</a>.</p>
+</div>
 
-  <div id="credits">
-  <h2>Color Balls Credits</h2>
-  {% markdown press/Color Balls/credits.md %}
-  </div>
+<div id="credits">
+<h2>Color Balls Credits</h2>
+{% markdown press/Color Balls/credits.md %}
+</div>
 
-  <div id="contact">
+<div id="contact">
   <h2>Contact</h2>
-  {% markdown press/Color Balls/contact.md %}
-  </div>
-
+  <ul>
+  <li>Inquiries: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+  <li>Website: <a href="{{ site.url }}">{{ page.game.title }}
+  {% if site.twitter_username %}
+  <li>{% include icon-twitter.html username=site.twitter_username %}</li>
+  {% endif %}
+  {% if site.fb_username %}
+  <li>{% include icon-facebook.html username=site.fb_username %}</li>
+  {% endif %}
+  </ul>
 </div>

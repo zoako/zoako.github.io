@@ -1,7 +1,7 @@
-### John Watson
+### John 'Zoator' Watson
 Programming, Graphics Systems, Level Design, Design
 
-### Keerthik O
+### Keerthik 'kOrc' O
 Programming, Tools, UI Design, Design
 
 ### Jered Rutan, Galactic Bass

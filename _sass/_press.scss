@@ -25,8 +25,6 @@ body {
     font-kerning: normal;
 }
 
-
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -47,6 +45,24 @@ p {
     width: 200px;
 }
 
+#factsheet {
+    position: relative;
+    float: left;
+    width: 25%;
+    padding-right: 3%;
+    min-width: 150px;
+}
+
+.right-column {
+    float: left;
+    width: 72%;
+    overflow: hidden;
+}
+
+#videos {
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+}
 
 /**
  * Images
@@ -57,6 +73,8 @@ p {
     display: block;
     width: 100%;
     overflow: hidden;
+    margin: 10px 0px;
+    padding: 10px 0px;
  }
 
 .screenshot {
@@ -65,13 +83,12 @@ p {
     float: left;
     height: 200px;
     width: 355px;
-    margin: 5px;
+    margin: 5px 0px;
     vertical-align: middle;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
 }
-
 
 
 /**
@@ -107,10 +124,12 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: $base-font-weight * 1.4;
 }
 
-
+.post-link {
+    font-size: $base-font-size * 1.25;
+}
 
 /**
  * Links
@@ -197,8 +216,13 @@ pre {
     }
 }
 
+.page-heading {
+    
+}
+
 .page-content {
     min-height: 400px;
+    min-width: 500px;
 }
 
 /**

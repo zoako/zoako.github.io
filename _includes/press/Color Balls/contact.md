@@ -1,11 +1,17 @@
 ### Inquiries
 [colorballs@zoako.com](mailto:colorballs@zoako.com)
-
-### Twitter
-[{{ site.twitter_username }}](https://twitter.com/{{ site.twitter_username }})
-
-### Facebook
-[{{ site.fb_username }}](https://twitter.com/{{ site.fb_username }})
+<ul>
+{% if site.twitter_username %}
+	<li>
+	{% include icon-twitter.html username=site.twitter_username %}
+	</li>
+{% endif %}
+{% if site.fb_username %}
+	<li>
+	{% include icon-facebook.html username=site.fb_username %}
+	</li>
+{% endif %}
+</ul>
 
 ### Web
 [Color Balls Site]({{ site.url }})
