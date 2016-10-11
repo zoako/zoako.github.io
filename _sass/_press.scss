@@ -41,32 +41,42 @@ p {
 
 .navigation {
     position: fixed;
-    left: 30px;
     width: 200px;
 }
 
 #factsheet {
     position: relative;
     float: left;
-    width: 25%;
-    padding-right: 3%;
+    width: 22%;
+    margin-right: 3%;
     min-width: 150px;
 }
 
 .right-column {
     float: left;
-    width: 72%;
+    width: 70%;
     overflow: hidden;
 }
 
-#videos {
+#full-width {
     border-top: 2px solid #ccc;
     padding-top: 10px;
+    float: left;
 }
 
 /**
  * Images
  */
+
+.banner {
+    position: relative;
+    height: 200px; 
+    width: 400px;
+    margin: 10px auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
 .image-container {
     position: relative;
     float: clear;
@@ -198,10 +208,14 @@ pre {
 /**
  * Wrapper
  */
+
+.press-content {
+    margin-left: 250px;
+    overflow: hidden;
+}
+
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    min-width: 500px;
+    width: $content-width;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
@@ -209,8 +223,7 @@ pre {
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        width: $content-width;
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
