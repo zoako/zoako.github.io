@@ -14,7 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
 developer: Zoako Studios
 developer_url: "http://www.zoako.com"
 # the base hostname & protocol for your site
-baseurl: "colorballsweb" # the subpath of your site, e.g. /blog
+baseurl: "/colorballsweb" # the subpath of your site, e.g. /blog
 url: "zoako.gitlab.io"
 # url: "http://colorballsgame.com"
 # NOTE: Should replace with the below when we get the domain
