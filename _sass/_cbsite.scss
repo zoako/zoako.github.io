@@ -1,0 +1,68 @@
+/**
+ * Reset some basic elements
+ */
+
+body, p, a {
+    font-size: 20px;
+}
+
+#titleimage {
+    width: 600px;
+    height: 200px;
+    margin: -10px auto;
+    background-image: url(/img/banner.jpg);
+}
+
+#pitch {
+    width: 800px;
+    text-align: center;
+    padding: 20px;
+    margin: 5px auto;
+}
+
+#trailer {
+    width: 1000px;
+    padding: 10px;
+    margin: 5px auto;
+}
+
+.videoframe {
+    margin: 0 auto;
+    width: 853px;
+    height: 480px;
+}
+
+#greenlight_container {
+    width: 400px;
+    margin: 5px auto;
+    padding: 5px;
+}
+
+#greenlight_container p {
+    text-align: center;
+}
+
+#greenlight_widget {
+    overflow: hidden;
+    display: hidden;
+    height: 137px;
+    width: 336px;
+}
+
+#greenlight_button {
+    height: 140px;
+    width: 310px;
+    background-image: url(/img/greenlight-logo.png)
+}
+
+#greenlight_button, #greenlight_widget {
+    position: relative;
+    display: block;
+    margin: 5px auto;
+    vertical-align: middle;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

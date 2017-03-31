@@ -1,9 +1,32 @@
 ---
-layout: default
+layout: homepage
+greenlightid: 112030991
 ---
 
+<div class="banner"
+     id="titleimage"></div>
 <div class="home">
-
-  <h1 class="page-heading">Home</h1>
-  
+	<div id="pitch"><p>
+		Color Balls is a high-speed anti-gravity racing game with a colorful twist
+	</p></div>
+	<div class="videoframe">
+		<iframe width="853" height="480" src="https://www.youtube.com/embed/atXl1W3BZzs" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<div id="greenlight_container">
+		<p>Vote for us on</p>
+		<a href="steam://url/CommunityFilePage/{{ page.greenlightid }}"><div id="greenlight_button">
+		</div></a>
+		<div id="greenlight_web">
+			<p id="greenlight_reveal"><a href="http://steamcommunity.com/sharedfiles/filedetails/?id={{ page.greenlightid }}">
+				No Steam? Click here</a></p>
+			<!--div id="greenlight_widget">
+				<iframe src="http://steamcommunity.com/sharedfiles/widget/{{ page.greenlightid }}" 
+								width="336" height="137" frameborder="0" scrolling="no"></iframe-->	
+			</div>
+		</div>
+	</div>
+	<div id="pitch"><p>
+		Set in a vibrant abstract universe, the colors of your ball and the world determine how fast (or slow) you get to go. 
+		Modify the track with bright colors as you zip through tunnels planning the perfect route for your next lap.
+	</p></div>
 </div>
