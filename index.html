@@ -3,30 +3,83 @@ layout: homepage
 greenlightid: 112030991
 ---
 
-<div class="banner"
-     id="titleimage"></div>
-<div class="home">
-	<div id="pitch"><p>
-		Color Balls is a high-speed anti-gravity racing game with a colorful twist
-	</p></div>
-	<div class="videoframe">
-		<iframe width="853" height="480" src="https://www.youtube.com/embed/atXl1W3BZzs" frameborder="0" allowfullscreen></iframe>
-	</div>
-	<div id="greenlight_container">
-		<p>Vote for us on</p>
-		<a href="steam://url/CommunityFilePage/{{ page.greenlightid }}"><div id="greenlight_button">
-		</div></a>
-		<div id="greenlight_web">
-			<p id="greenlight_reveal"><a href="http://steamcommunity.com/sharedfiles/filedetails/?id={{ page.greenlightid }}">
-				No Steam? Click here</a></p>
-			<!--div id="greenlight_widget">
-				<iframe src="http://steamcommunity.com/sharedfiles/widget/{{ page.greenlightid }}" 
-								width="336" height="137" frameborder="0" scrolling="no"></iframe-->	
+<div class="section">
+	<div class="section-bg" style="background-image: url(/img/bg-1.png);"></div>
+	<div id="titleimage" class="banner"></div>
+	<div class="section-content">
+		<div id="pitch"><p>
+			A high-speed anti-gravity racing game with a <span>colorful</span> twist
+		</p></div>
+		<div id="greenlight_container">
+			<p>Vote for us on</p>
+			<a href="steam://url/CommunityFilePage/{{ page.greenlightid }}"><div id="greenlight_button">
+			</div></a>
+			<div id="greenlight_web">
+				<p id="greenlight_reveal"><a target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id={{ page.greenlightid }}">
+					No Steam? Click here</a></p>
 			</div>
 		</div>
 	</div>
-	<div id="pitch"><p>
-		Set in a vibrant abstract universe, the colors of your ball and the world determine how fast (or slow) you get to go. 
-		Modify the track with bright colors as you zip through tunnels planning the perfect route for your next lap.
-	</p></div>
 </div>
+<div class="videoframe">
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/atXl1W3BZzs" frameborder="0" allowfullscreen></iframe>
+</div>
+<div id="pitch"><p>
+	Set in a vibrant abstract universe, the colors of your ball and the world determine how fast (or slow) you get to go. 
+	Modify the track with bright colors as you zip through tunnels planning the perfect route for your next lap.
+</p></div>
+<div class="section">
+	<div class="section-bg" style="background-image: url(/img/bg-2.png);"></div>
+	<div class="section-content">
+		<h1 class="brand1">The Track is your Canvas</h1>
+		<p>In Color Balls, the track is your canvas, and it’s up to you to paint it to your advantage. <br>
+		Gather colors from pools scattered throughout the track, changing your color and the trail you leave behind on the track</p>
+		
+		<h1 class="brand2">Mix Colors</h1>
+		<p>Pick up different colors, mixing them into higher-tier colors. 
+		Grab both <span style="color:yellow">yellow</span> and <span style="color:magenta">magenta</span> to level up to <span style="color:red">red</span>.
+		All three primary paint colors will bring you to the highest tier color, <span>black</span>. 
+		You lose color as you paint all the time though, so keeping mixed colors can be a challenge!</p>
+		
+		<h1 class="brand3">Colors are the keys to Speed</h1>
+		<p>Roll over trails or into obstacles of a color you don't have in your ball, and they will slow you down. If they are of a color contained in your ball, they will boost you instead.
+		Higher tier colors amplify both the bonuses and the penalties.
+		Your desired path through the track will change with the color of your ball, each lap different from the last. Obstacles and trails you once avoided can become advantageous.<br>
+		At the <span>black</span> tier, zip through the level hitting every obstacle you can to try top the leaderboards!</p>
+	</div>
+</div>
+<div class="section">
+	<div class="section-content">
+	<p>Follow us stay up to date:</p>
+		<div id="greenlight_widget">
+			<iframe src="http://steamcommunity.com/sharedfiles/widget/{{ page.greenlightid }}" 
+							width="336" height="137" frameborder="0" scrolling="no"></iframe>	
+		</div>
+	</div>
+	<p style="font-size: 40px">
+	  {% if site.twitter_username %}
+			<a href="https://twitter.com/{{ site.twitter_username }}"><span class="icon-large icon--twitter">{% include icon-twitter.svg %}</span></a>
+	  {% endif %}	  
+	  {% if site.fb_username %}
+			<a href="https://facebook.com/{{ site.fb_username }}"><span class="icon-large icon--twitter">{% include icon-facebook.svg %}</span></a>
+	  {% endif %}
+	  {% if site.yt_username %}
+			<a href="https://youtube.com/channel/{{ site.yt_username }}"><span class="icon-large icon--twitter">{% include icon-youtube.svg %}</span></a>
+	  {% endif %}
+  </p>
+</div>
+<div class="section">
+	<div class="section-bg" style="background-position: center; background-image: url(/img/bg-3.png);"></div>
+	<div class="section-content">
+		<h1>Game Modes, Leaderboards and More</h1>
+		<ul>
+			<li>Exclusive soundtrack</li>
+			<li>10+ challenging tracks with unique mechanics</li>
+			<li>Shoot for the top of the global leaderboards</li>
+			<li>Compete with Ghost Challenges from the global playerbase including your friends</li>
+		</ul>
+		<p><a target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id={{ page.greenlightid }}">
+		Support us on Greenlight</a> so we can bring Color Balls to PC & Mac</p>
+	</div>
+</div>
+

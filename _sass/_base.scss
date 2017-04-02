@@ -95,12 +95,12 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: darken($brand-color, 25%);
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: darken($brand-color3, 15%);
+        text-decoration: none;
     }
 }
 
@@ -155,19 +155,13 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    max-width: -webkit-calc(#{$content-width});
+    max-width:         calc(#{$content-width});
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        max-width: -webkit-calc(#{$content-width});
+        max-width:         calc(#{$content-width});
     }
 }
 
@@ -202,6 +196,21 @@ pre {
 
         path {
             fill: $grey-color;
+        }
+    }
+}
+
+.icon-large {
+
+    > svg {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        margin: 0 5px;
+        vertical-align: middle;
+
+        path {
+            fill: $brand-color;
         }
     }
 }

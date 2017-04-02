@@ -5,7 +5,11 @@ game:
   banner: "press/branding/banner.jpg"
 videos:
   - title: "Pre-beta Gameplay"
-    link: "https://youtube.com/embed/4gUOIF9Yi70"
+    link: "4gUOIF9Yi70"
+  - title: "Greenlight Teaser Trailer"
+    link: "atXl1W3BZzs"
+  - title: "Greenlight Gameplay Trailer"
+    link: "lCQqD1AIPks"
 ---
 
 <div class="banner"
@@ -37,7 +41,7 @@ videos:
     {% for video in page.videos %}
       <li>
         <h3 class="post-link">{{ video.title }}</h3>
-        <iframe width="560" height="315" src="{{ video.link }}" frameborder="0" allowfullscreen>
+        <iframe width="560" height="315" src="https://youtube.com/embed/{{ video.link }}" frameborder="0" allowfullscreen>
         </iframe>
       </li>
     {% endfor %}
@@ -51,7 +55,7 @@ videos:
   <div class="image-container">
     {% for screen in site.static_files %}{% if screen.path contains 'press/screenshots' %}
         <div  class="screenshot" 
-              style="background-image: url({{ site.baseurl }}/{{ screen.path }})"></div>
+              style="background-image: url({{ screen.path }})"></div>
     {% endif %}{% endfor %}
   </div>
 
@@ -61,7 +65,7 @@ videos:
   <div class="image-container">
     {% for image in site.static_files %}{% if image.path contains 'press/branding' %}
         <div  class="screenshot" 
-              style="background-image: url({{ site.baseurl }}/{{ image.path }})"></div>
+              style="background-image: url({{ image.path }})"></div>
     {% endif %}{% endfor %}
   </ul>
   </div>
