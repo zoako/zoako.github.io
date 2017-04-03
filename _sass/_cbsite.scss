@@ -53,6 +53,9 @@ h1 {
 
 .details-container {
     padding: 20px;
+    @include media-query($on-palm) {
+        padding: 0px;
+    }
     margin: 0 auto;
 }
 
@@ -93,13 +96,13 @@ h1 {
     margin: 0 auto;
     max-width: -webkit-calc(#{$content-width} - #{$spacing-unit});
     max-width:         calc(#{$content-width} - #{$spacing-unit});
+    min-width: 400px;
     @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - #{$spacing-unit});
-        max-width:         calc(#{$content-width} - #{$spacing-unit});
-    }
     padding: 10px 60px;
+
+    @include media-query($on-palm) {
+        padding: 10px 0px;
+    }
 }
 
 .logo-container {
