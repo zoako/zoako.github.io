@@ -9,7 +9,7 @@ li {
 
 p {
     text-align: center;
-    font-size: 26px;
+    font-size: 22px;
     color: $text-color;
 }
 
@@ -32,10 +32,23 @@ h1 {
     font-family: "Raleway-Bold";
 }
 
+.content {
+    width: 70%;
+    background-color: $background-color-light;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.details-container {
+    padding: 20px;
+    margin: 0 auto;
+}
+
 .section {
     position: relative;
     width: 100%;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 .section-bg {
@@ -76,21 +89,67 @@ h1 {
     }
     padding: 10px 60px;
 }
+
+.logo-container {
+    background-color: $background-color-logo;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.game-details {
+    background-color: $background-color-dark;
+    border-radius: 10px;
+}
+
+.game-detail-header {
+    text-align: center;
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+.top-detail {
+    padding-top: 0px;
+    margin-top: 10px;
+}
+
+.game-feature-item {
+    margin: 10px auto;
+}
+
+.support-us {
+    margin-top: 20px auto 0px auto;
+    font-weight: bolder;
+}
+
+.social-media {
+    padding-top: 30px;
+
+    p {
+        font-size: 20px;
+    }
+}
+
 #titleimage {
-    width: 800px;
+    width: 95%;
     height: 350px;
-    margin: -10px auto;
     background-image: url(/img/banner.png);
+    margin: 0 auto;
+;
+}
+
+#pitch-header p {
+    width: 100%;
+    margin: 30px auto;
+    font-size: 32px;
 }
 
 #pitch {
-    width: 800px;
-    padding: 20px;
-    margin: 5px auto;
+    width: 100%;
+    margin: 50px auto;
 }
 
 #pitch p {
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
 }
 
@@ -105,10 +164,18 @@ p span {
 }
 
 .videoframe {
-    margin: 0 auto;
-    padding-top: 50px;
-    width: 853px;
-    height: 480px;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.videoframe iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #greenlight_container {
@@ -118,7 +185,7 @@ p span {
 }
 
 #greenlight_container p {
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
     color: #3e3e3e;
 }
@@ -146,4 +213,9 @@ p span {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+#zoako-logo {
+    width: 30%;
+    margin: 0 auto;
 }
