@@ -12,30 +12,30 @@ videos:
     link: "lCQqD1AIPks"
 ---
 
-<div class="banner"
+<div class="press-banner"
      style="background-image: url({{ site.baseurl }}/{{ page.game.banner }})"></div>
-<div id="factsheet" class="press-block text">
+<div id="press-factsheet" class="press-block text">
   <h2>Factsheet</h2>
   {% markdown press/Color Balls/facts.md %}
 </div>
 <div class="right-column">
-  <div id="description" class="press-block text">
+  <div id="press-description" class="press-block text">
   <h2>Description</h2>
   {% markdown press/Color Balls/description.md %}
   </div>
 
-  <div id="history" class="press-block text">
+  <div id="press-history" class="press-block text">
   <h2>History</h2>
   {% markdown press/Color Balls/history.md %}
   </div>
 
-  <div id="features" class="press-block text">
+  <div id="press-features" class="press-block text">
   <h2>Features</h2>
   {% markdown press/Color Balls/features.md %}
   </div>
 </div>
 <div id="full-width">
-  <div id="videos">
+  <div id="press-videos">
   <h2>Videos</h2>
   <ul class="post-list">
     {% for video in page.videos %}
@@ -49,7 +49,7 @@ videos:
   Find more videos on our channel at {% include icon-youtube.html username=site.yt_username %}.
   </div>
 
-  <div id="screenshots">
+  <div id="press-screenshots">
   <h2>Screenshots</h2>
   <a href="">Download all as zip</a>
   <div class="image-container">
@@ -59,7 +59,7 @@ videos:
     {% endif %}{% endfor %}
   </div>
 
-  <div id="branding">
+  <div id="press-branding">
   <h2>Logos & Icon</h2>
   <a href="">Download all as zip</a>
   <div class="image-container">
@@ -70,18 +70,18 @@ videos:
   </ul>
   </div>
 
-  <div id="about">
+  <div id="press-about">
   <h2>About {{ site.developer }}</h2>
   {% markdown press/Color Balls/about_developer.md %}
   <p>Learn more about Zoako Studios <a href="{{ site.baseurl }}/about/">here</a>.</p>
   </div>
 
-  <div id="credits">
+  <div id="press-credits">
   <h2>Color Balls Credits</h2>
   {% markdown press/Color Balls/credits.md %}
   </div>
 
-  <div id="contact">
+  <div id="press-contact">
     <h2>Contact</h2>
     <ul>
     <li>Inquiries: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
