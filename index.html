@@ -3,78 +3,78 @@ layout: homepage
 ---
 
 <div class="content">
-<div class="logo-container">
-	<div id="titleimage"></div>
-</div>
-<div class="details-container">
-	<div class="section-content">
-		<div id="pitch-header"><p>
-			A high-speed anti-gravity racing game with a <span>colorful</span> twist
+	<div class="logo-container">
+		<div id="titleimage"></div>
+	</div>
+	<div class="details-container">
+		<div class="section-content">
+			<div id="pitch-header"><p>
+				A high-speed anti-gravity racing game with a <span>colorful</span> twist
+			</p></div>
+			<div id="greenlight_container">
+				<p>Vote for us on</p>
+				<a href="steam://url/CommunityFilePage/{{ site.greenlight_id }}"><div id="greenlight_button">
+				</div></a>
+				<div id="greenlight_web">
+					<p><a class="greenlight_web" target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id={{ site.greenlight_id }}">
+						No Steam? Click here</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="videoframe">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/lCQqD1AIPks" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div id="pitch"><p>
+			Set in a vibrant abstract universe, the colors of your ball and the world determine how fast (or slow) you get to go. 
+			Modify the track with bright colors as you zip through tunnels planning the perfect route for your next lap.
 		</p></div>
-		<div id="greenlight_container">
-			<p>Vote for us on</p>
-			<a href="steam://url/CommunityFilePage/{{ site.greenlight_id }}"><div id="greenlight_button">
-			</div></a>
-			<div id="greenlight_web">
-				<p id="greenlight_reveal"><a target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id={{ site.greenlight_id }}">
-					No Steam? Click here</a></p>
-			</div>
-		</div>
-	</div>
-	<div class="videoframe">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/lCQqD1AIPks" frameborder="0" allowfullscreen></iframe>
-	</div>
-	<div id="pitch"><p>
-		Set in a vibrant abstract universe, the colors of your ball and the world determine how fast (or slow) you get to go. 
-		Modify the track with bright colors as you zip through tunnels planning the perfect route for your next lap.
-	</p></div>
-	<div class="section">
-		<div class="section-content game-details">
-			<h1 class="game-detail-header top-detail">The Track is Your Canvas</h1>
-			<p>In Color Balls, the track is your canvas, and it’s up to you to paint it to your advantage. Gather colors from pools scattered throughout the track to change the color of your ball and the trail it leaves behind.</p>
-			
-			<h1 class="game-detail-header">Mix Colors</h1>
-			<p>Pick up different colors to mix them into a new color. Grab both yellow and magenta to turn your ball red, or cyan and yellow if you want to paint green. Acquire all three primary paint colors to get black, but be careful! You lose colors as you paint with them, so keeping mixed colors can be a challenge.</p>
-			
-			<h1 class="game-detail-header">Colors are the Keys to Speed</h1>
-			<p>Roll over trails or into obstacles of a color you don't have in your ball, and they will slow you down. If you have the right colors in your ball, they will boost you instead. Mixed colors amplify both the bonuses and the penalties, with black having the biggest payoffs (or the harshest drawbacks).</p>
+		<div class="section">
+			<div class="section-content game-details">
+				<h1 class="game-detail-header top-detail">The Track is Your Canvas</h1>
+				<p>In Color Balls, the track is your canvas, and it’s up to you to paint it to your advantage. Gather colors from pools scattered throughout the track to change the color of your ball and the trail it leaves behind.</p>
+				
+				<h1 class="game-detail-header">Mix Colors</h1>
+				<p>Pick up different colors to mix them into a new color. Grab both yellow and magenta to turn your ball red, or cyan and yellow if you want to paint green. Acquire all three primary paint colors to get black, but be careful! You lose colors as you paint with them, so keeping mixed colors can be a challenge.</p>
+				
+				<h1 class="game-detail-header">Colors are the Keys to Speed</h1>
+				<p>Roll over trails or into obstacles of a color you don't have in your ball, and they will slow you down. If you have the right colors in your ball, they will boost you instead. Mixed colors amplify both the bonuses and the penalties, with black having the biggest payoffs (or the harshest drawbacks).</p>
 
-			<p>Your desired path through the track will change with the color of your ball, making each lap different from the last. Obstacles and trails you once avoided can become advantageous. When your ball is black, zip through the level hitting every obstacle you can to try to top the leaderboards!</p>
-		</div>
-	</div>
-	<div class="section">
-		<div class="section-content social-media">
-		<p>Follow us and stay up to date:</p>
-			<div id="greenlight_widget">
-				<iframe src="http://steamcommunity.com/sharedfiles/widget/{{ site.greenlight_id }}" 
-								width="336" height="137" frameborder="0" scrolling="no"></iframe>	
+				<p>Your desired path through the track will change with the color of your ball, making each lap different from the last. Obstacles and trails you once avoided can become advantageous. When your ball is black, zip through the level hitting every obstacle you can to try to top the leaderboards!</p>
 			</div>
 		</div>
-		<p style="font-size: 40px">
-		  {% if site.twitter_username %}
-				<a href="https://twitter.com/{{ site.twitter_username }}"><span class="icon-large icon--twitter">{% include icon-twitter.svg %}</span></a>
-		  {% endif %}	  
-		  {% if site.fb_username %}
-				<a href="https://facebook.com/{{ site.fb_username }}"><span class="icon-large icon--twitter">{% include icon-facebook.svg %}</span></a>
-		  {% endif %}
-		  {% if site.yt_username %}
-				<a href="https://youtube.com/channel/{{ site.yt_username }}"><span class="icon-large icon--twitter">{% include icon-youtube.svg %}</span></a>
-		  {% endif %}
-	  </p>
-	</div>
-	<div class="section">
-		<div class="section-content game-details">
-			<h1 class="game-detail-header top-detail">Game Modes, Leaderboards and More</h1>
-				<p class="game-feature-item">Shoot for the top of the global leaderboards</p>
-				<p class="game-feature-item">Ghost Challenges from the global playerbase including your friends</p>
-				<p class="game-feature-item">10+ tracks with unique mechanics</p>
-				<p class="game-feature-item">Exclusive soundtrack</p>
-			<p class="support-us"><a target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id={{ site.greenlight_id }}">
-			Support us on Greenlight</a> so we can bring Color Balls to PC & Mac</p>
+		<div class="section">
+			<div class="section-content social-media">
+			<p>Follow us and stay up to date:</p>
+				<div id="greenlight_widget">
+					<iframe src="http://steamcommunity.com/sharedfiles/widget/{{ site.greenlight_id }}" 
+									width="336" height="137" frameborder="0" scrolling="no"></iframe>	
+				</div>
+			</div>
+			<p style="font-size: 40px">
+			  {% if site.twitter_username %}
+					<a href="https://twitter.com/{{ site.twitter_username }}"><span class="icon-large icon--twitter">{% include icon-twitter.svg %}</span></a>
+			  {% endif %}	  
+			  {% if site.fb_username %}
+					<a href="https://facebook.com/{{ site.fb_username }}"><span class="icon-large icon--twitter">{% include icon-facebook.svg %}</span></a>
+			  {% endif %}
+			  {% if site.yt_username %}
+					<a href="https://youtube.com/channel/{{ site.yt_username }}"><span class="icon-large icon--twitter">{% include icon-youtube.svg %}</span></a>
+			  {% endif %}
+		  </p>
+		</div>
+		<div class="section">
+			<div class="section-content game-details">
+				<h1 class="game-detail-header top-detail">Game Modes, Leaderboards and More</h1>
+					<p class="game-feature-item">Shoot for the top of the global leaderboards</p>
+					<p class="game-feature-item">Ghost Challenges from the global playerbase including your friends</p>
+					<p class="game-feature-item">10+ tracks with unique mechanics</p>
+					<p class="game-feature-item">Exclusive soundtrack</p>
+				<p class="support-us"><a class="greenlight_web" target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id={{ site.greenlight_id }}">
+				Support us on Greenlight</a> so we can bring Color Balls to PC & Mac</p>
+			</div>
+		</div>
+		<div id="zoako-logo">
+			<img src="/img/zk-logo.png"></img>
 		</div>
 	</div>
-	<div id="zoako-logo">
-		<img src="/img/zk-logo.png"></img>
-	</div>
-</div>
 </div>

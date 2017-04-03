@@ -40,10 +40,15 @@ h1 {
 }
 
 .content {
-    width: 70%;
+    width: 80%;
+    max-width: 1000px;
     background-color: $background-color-light;
     margin: 0 auto;
     border-radius: 10px;
+
+    @include media-query($on-palm) {
+        width: 100%;
+    }
 }
 
 .details-container {
@@ -101,6 +106,9 @@ h1 {
     background-color: $background-color-logo;
     border-radius: 10px;
     margin: 0 auto;
+    @include media-query($on-palm) {
+        border-radius: 0px;
+    }
 }
 
 .game-details {
@@ -139,7 +147,7 @@ h1 {
 #titleimage {
     position: relative;
     width: 95%;
-    height: 350px;
+    height: 300px;
     margin: 0 auto;
     background-repeat: no-repeat;
     background-size: contain;
@@ -190,6 +198,7 @@ p span {
 
 #greenlight_container {
     width: 400px;
+    max-width: 100%;
     margin: 5px auto;
     padding: 5px;
 }
