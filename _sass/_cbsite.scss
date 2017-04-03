@@ -1,6 +1,14 @@
 /**
  * Reset some basic elements
  */
+body {
+    background-color: $background-color-outer;
+}
+
+.content p {
+    text-align: center;
+}
+
 li {
     font-size: 26px;
     color: $text-color;
@@ -8,7 +16,6 @@ li {
 }
 
 p {
-    text-align: center;
     font-size: 22px;
     color: $text-color;
 }
@@ -130,11 +137,14 @@ h1 {
 }
 
 #titleimage {
+    position: relative;
     width: 95%;
     height: 350px;
-    background-image: url(/img/banner.png);
     margin: 0 auto;
-;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(/img/game-banner.png);
 }
 
 #pitch-header p {

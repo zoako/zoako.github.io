@@ -165,6 +165,13 @@ pre {
     }
 }
 
+.mobile-only {
+    display: none;
+    @include media-query($on-palm) {
+        display: block;
+    }
+}
+
 .page-content {
     min-height: 400px;
 }

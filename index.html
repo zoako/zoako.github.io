@@ -1,11 +1,10 @@
 ---
 layout: homepage
-greenlightid: 112030991
 ---
 
 <div class="content">
 <div class="logo-container">
-	<div id="titleimage" class="banner"></div>
+	<div id="titleimage"></div>
 </div>
 <div class="details-container">
 	<div class="section-content">
@@ -14,10 +13,10 @@ greenlightid: 112030991
 		</p></div>
 		<div id="greenlight_container">
 			<p>Vote for us on</p>
-			<a href="steam://url/CommunityFilePage/{{ page.greenlightid }}"><div id="greenlight_button">
+			<a href="steam://url/CommunityFilePage/{{ site.greenlight_id }}"><div id="greenlight_button">
 			</div></a>
 			<div id="greenlight_web">
-				<p id="greenlight_reveal"><a target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id={{ page.greenlightid }}">
+				<p id="greenlight_reveal"><a target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id={{ site.greenlight_id }}">
 					No Steam? Click here</a></p>
 			</div>
 		</div>
@@ -47,7 +46,7 @@ greenlightid: 112030991
 		<div class="section-content social-media">
 		<p>Follow us and stay up to date:</p>
 			<div id="greenlight_widget">
-				<iframe src="http://steamcommunity.com/sharedfiles/widget/{{ page.greenlightid }}" 
+				<iframe src="http://steamcommunity.com/sharedfiles/widget/{{ site.greenlight_id }}" 
 								width="336" height="137" frameborder="0" scrolling="no"></iframe>	
 			</div>
 		</div>
@@ -66,11 +65,11 @@ greenlightid: 112030991
 	<div class="section">
 		<div class="section-content game-details">
 			<h1 class="game-detail-header top-detail">Game Modes, Leaderboards and More</h1>
-				<p class="game-feature-item">Exclusive soundtrack</p>
-				<p class="game-feature-item">10+ challenging tracks with unique mechanics</p>
 				<p class="game-feature-item">Shoot for the top of the global leaderboards</p>
-				<p class="game-feature-item">Compete with Ghost Challenges from the global playerbase including your friends</p>
-			<p class="support-us"><a target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id={{ page.greenlightid }}">
+				<p class="game-feature-item">Ghost Challenges from the global playerbase including your friends</p>
+				<p class="game-feature-item">10+ tracks with unique mechanics</p>
+				<p class="game-feature-item">Exclusive soundtrack</p>
+			<p class="support-us"><a target="_blank" href="http://steamcommunity.com/sharedfiles/filedetails/?id={{ site.greenlight_id }}">
 			Support us on Greenlight</a> so we can bring Color Balls to PC & Mac</p>
 		</div>
 	</div>

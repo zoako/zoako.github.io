@@ -115,10 +115,13 @@
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
+    margin-left: $spacing-unit * 2;
     @extend %clearfix;
+}
+
+.footer-col-wrapper li {
+    font-size: 13px;
+    color: $grey-color;    
 }
 
 .footer-col {
@@ -216,8 +219,9 @@
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
-
+    max-width: $content-width;
+    margin: $spacing-unit auto;
+    padding: 0 2*($spacing-unit);
     h2 {
         font-size: 32px;
 

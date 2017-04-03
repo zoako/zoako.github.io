@@ -1,13 +1,13 @@
 <footer class="site-footer">
 
   <div class="wrapper">
-
+    <hr>
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <ul class="contact-list">
           <li>Navigation</li>
           <li><a href="{{ site.baseurl }}/">Home</a></li>
-          <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+          <!--li><a href="{{ site.baseurl }}/blog">Blog</a></li-->
           <li><a href="{{ site.baseurl }}/press">Press Kit</a></li>
           <li><a href="{{ site.baseurl }}/about">About</a></li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
@@ -42,7 +42,9 @@
       </div>
 
       <div class="footer-col">
-        <p>{{ site.description }}</p>
+        <ul class="contact-list">
+          <li>{{ site.description }}</li>
+        </ul>
       </div>
     </div>
 
