@@ -5,6 +5,7 @@ cd ../cbwebbackup
 git add -A .
 git commit -a -m "fixing stuff"
 git push origin master
+cd ../colorballsweb
 
 # zoako.gitlab.io
 This is the source content for a Jekyll generated static site.
