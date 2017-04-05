@@ -1,0 +1,636 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Andr",
+				"AndroidBuild"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/Unity3D Build System/Unity.sublime-build",
+					""
+				],
+				[
+					"Packages/Unity3D Build System/Unity.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/R/R.sublime-build",
+					""
+				],
+				[
+					"Packages/Unity3D Build System/Unity.sublime-build",
+					""
+				],
+				[
+					"Packages/Unity3D Build System/Unity.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/R/R.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/keerthik/projects/bitgymsdk/Android/BitGymCardioSDK/jni/BitGymCore/core/cardio/BitGymCardio.cpp",
+		"/Users/keerthik/projects/bitgymsdk/Android/BitGymCardioSDK/jni/BitGymCore/android_wrapper/cardio/BitGymCardioAndroid.h",
+		"/Users/keerthik/projects/bitgymsdk/Android/BitGymCardioSDK/jni/BitGymCore/android_wrapper/cardio/BitGymCardioAndroid.cpp",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/metadata/job/job.sh",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/metadata/job/ATHKPK0410.json",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/metadata/global-list-circuits-prod.json",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/encoding/v4guided_encode_job.py",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/encoding/jobs/ATHKPK0410_encoder.sh",
+		"/Users/keerthik/Downloads/metadata.json",
+		"/Users/keerthik/Desktop/BitGymWorkspace/tom0001/metadata.json",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/metadata/job/TOM0001.json",
+		"/Users/keerthik/Downloads/v4-content%2Fproviders%2Fcommunity%2FTOM0001%2Fmetadata (1).json",
+		"/Users/keerthik/Downloads/v4-content%2Fproviders%2Fcommunity%2FTOM0001%2Fmetadata.json",
+		"/Users/keerthik/projects/source_korc/source/styles/ds-unit.css",
+		"/Users/keerthik/projects/source_korc/source/_layouts/ds/unitcard.html",
+		"/Users/keerthik/projects/source_korc/source/_includes/ds/gameheadcontent.html",
+		"/Users/keerthik/projects/source_korc/source/dicestorm/game/quickrules.md",
+		"/Users/keerthik/projects/source_korc/source/dicestorm/game/units.json",
+		"/Users/keerthik/projects/source_korc/source/dicestorm/game/units_epic.html",
+		"/Users/keerthik/Desktop/BitGymWorkspace/tom0001/metadata-filed.json",
+		"/Users/keerthik/projects/source_korc/source/dicestorm/game/rules.md",
+		"/Users/keerthik/projects/source_korc/source/essays/citiesppl.md",
+		"/Users/keerthik/Dropbox/RBD/Tools/generate_footage.sh",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/metadata/social_media.py",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/metadata/sheet_to_package_json.py",
+		"/Users/keerthik/propel/Android/BitGym/autobuild.sh",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/metadata/job/ATHKPK0501.json",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/metadata/BitGymDev-4deb4504b295.json",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/metadata/job/metadata.json",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/metadata/sheet_to_circuit_json.py",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/metadata/global-list-circuits-dev.json",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/metadata/utils.py",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/job scripts/dev-to-prod-content.sh",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/job scripts/deploy_content_pipeline.sh",
+		"/Users/keerthik/projects/bg_cardioserver/content-pipeline/metadata/image_manipulation.py",
+		"/Users/keerthik/propel/Android/BitGym/src/com/activetheoryinc/BitGym/UnityPlayerNativeActivity.java",
+		"/Users/keerthik/projects/oculogger/ocuapi/dataexport.js",
+		"/Users/keerthik/projects/colorballsweb/index.html",
+		"/Users/keerthik/projects/source_korc/source/essays/eyes.md",
+		"/Users/keerthik/projects/source_korc/source/essays/languageliving.md",
+		"/Users/keerthik/projects/source_korc/source/styles/core.css",
+		"/Users/keerthik/projects/source_korc/source/_includes/headcontent.html",
+		"/Users/keerthik/projects/source_korc/source/_includes/postheadcontent.html",
+		"/Users/keerthik/projects/source_korc/source/styles/post.css",
+		"/Users/keerthik/projects/source_korc/source/_layouts/post.html",
+		"/Users/keerthik/projects/source_korc/source/essays/fromwhere.md",
+		"/Users/keerthik/projects/source_korc/source/essays/whatido.md",
+		"/Users/keerthik/Dropbox/Personal/Web Development/rentscraper.py",
+		"/Users/keerthik/projects/colorballsweb/_config.yml",
+		"/Users/keerthik/Dropbox/Personal/dnd.txt",
+		"/Users/keerthik/projects/colorballsweb/_includes/header.html",
+		"/Users/keerthik/projects/colorballsweb/_includes/head.html",
+		"/Users/keerthik/projects/colorballsweb/.gitlab-ci.yml",
+		"/Users/keerthik/Dropbox/Dicestorm/README.txt",
+		"/Users/keerthik/projects/source_korc/source/_includes/nomadintro.md",
+		"/Users/keerthik/projects/source_korc/source/essays/violence.md",
+		"/Users/keerthik/projects/source_korc/source/essays/Discarded_frozen/traveliving.md",
+		"/Users/keerthik/projects/source_korc/source/essays/Discarded_frozen/nonomad.md",
+		"/Users/keerthik/projects/source_korc/source/essays/startupsymptoms.md",
+		"/Users/keerthik/projects/source_korc/source/essays/esports.md",
+		"/Users/keerthik/propel/Android/BitGym/src/com/activetheoryinc/BitGym/UnityPlayerActivity.java",
+		"/Users/keerthik/propel/nexus/content_mgmt/global-list-circuits.json",
+		"/Users/keerthik/propel/Android/Plugins/src/com/activetheoryinc/billing/SamsungIAP.java",
+		"/Users/keerthik/propel/nexus/Assets/UI/LoginFacet/SubscriptionPurchaser.cs",
+		"/Users/keerthik/projects/source_korc/source/_config.yml",
+		"/Users/keerthik/projects/source_korc/source/about/index.md",
+		"/Users/keerthik/projects/bitgymweb/source/_includes/default_head.html",
+		"/Users/keerthik/projects/source_korc/source/essays/Discarded_frozen/candidintro.md",
+		"/Users/keerthik/projects/source_korc/source/essays/Discarded_frozen/androidmedia.md",
+		"/Users/keerthik/projects/source_korc/source/essays/Discarded_frozen/childhood.md",
+		"/Users/keerthik/projects/source_korc/source/essays/Discarded_frozen/cooking.md",
+		"/Users/keerthik/projects/source_korc/source/essays/Discarded_frozen/unityconsole.md",
+		"/Users/keerthik/projects/source_korc/source/essays/Discarded_frozen/intromobile.html",
+		"/Users/keerthik/projects/source_korc/source/essays/Discarded_frozen/civilization.md",
+		"/Users/keerthik/projects/source_korc/source/essays/internationalfounder.md",
+		"/Users/keerthik/projects/source_korc/source/essays/gamesthoughtbox.md",
+		"/Users/keerthik/projects/source_korc/source/essays/american.md",
+		"/Users/keerthik/projects/source_korc/source/essays/white.md",
+		"/Users/keerthik/projects/source_korc/source/essays/android_modem.md",
+		"/Users/keerthik/projects/source_korc/source/webtoys/servicelookup.sh",
+		"/Users/keerthik/projects/bg_cardioserver/utility-scripts/social_media.py",
+		"/Users/keerthik/Desktop/BitGymWorkspace/pythonspace.py",
+		"/Users/keerthik/projects/source_korc/source/_includes/westintro.md",
+		"/Users/keerthik/projects/source_korc/source/essays/gamersandyou.md",
+		"/Users/keerthik/projects/bg_cardioserver/README.md",
+		"/Users/keerthik/projects/source_korc/source/webtoys/phonenet.sh",
+		"/Users/keerthik/projects/bitgymsdk/sdk/scripts/deploy_cardio_sdk.py",
+		"/Users/keerthik/Downloads/hw4_2016Fall.R",
+		"/Users/keerthik/projects/rainbowdash/RainbowDashProject/Assets/Levels/LevelData.cs",
+		"/Users/keerthik/Dropbox/Zoako Demo Builds/prep_win.sh",
+		"/Users/keerthik/projects/bitgymsdk/sdk/scripts/make_sdk.sh",
+		"/Users/keerthik/propel/nexus/Assets/Scenes/Nexus.unity",
+		"/Users/keerthik/propel/nexus/Assets/Editor/BitGym/BitGymEditorMods.cs",
+		"/Users/keerthik/Dropbox/Personal/bitgymstorm.txt",
+		"/Users/keerthik/projects/source_korc/source/essays/overpowered.md",
+		"/Users/keerthik/projects/source_korc/source/essays/toys.md",
+		"/Users/keerthik/projects/source_korc/source/essays/socialgames.md",
+		"/Users/keerthik/projects/source_korc/source/essays/shouldexist.md",
+		"/Users/keerthik/projects/source_korc/source/essays/spinner_notes.md",
+		"/Users/keerthik/projects/source_korc/source/essays/nomadhabits.md",
+		"/Users/keerthik/projects/source_korc/source/essays/netizens.md",
+		"/Users/keerthik/projects/source_korc/source/essays/medialabs.md",
+		"/Users/keerthik/Dropbox/bitgym_release/MotionSDK_1.0.2.0/docs/BitGymMotionSDKDocs.html",
+		"/Users/keerthik/projects/oculogger/kubernetes/dev-bounce.sh",
+		"/Users/keerthik/projects/oculogger/kubernetes/bounce-dev_DONOTUSE.sh",
+		"/Users/keerthik/projects/oculogger/kubernetes/bounce-dev.sh",
+		"/Users/keerthik/projects/oculogger/kubernetes/staging-bounce.sh",
+		"/Users/keerthik/Downloads/image.jpeg",
+		"/Users/keerthik/projects/bitgymweb/source/js/parse-1.6.14.js",
+		"/Users/keerthik/projects/bitgymweb/source/js/bgprofile.js",
+		"/Users/keerthik/Dropbox/Personal/product_ideas.txt",
+		"/Users/keerthik/Dropbox/Flash-App Workout Master/script_and_stage/flash_validate_upload.py",
+		"/Users/keerthik/projects/oculogger/ocuwebserver/package.json",
+		"/Users/keerthik/projects/bglegacy/.gitmodules",
+		"/Users/keerthik/projects/oculogger/common/node_modules/lodash/_stringSize.js"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"vault.zip",
+			"ATRNPK0409",
+			"ATBKPK0411",
+			"alex/nexus-server",
+			"RNPK0401",
+			"ATHKPK0501",
+			"ATHKPK05",
+			", hex",
+			"* ",
+			"- ",
+			"creatures",
+			"\"text\": \"",
+			"pport",
+			"PC",
+			"amazon",
+			"pport",
+			"keystore",
+			"4",
+			"3",
+			"2",
+			"1",
+			"spreadsheetPathEvents",
+			"updatemetadatajsonfor",
+			"tofilename",
+			"Maintenance",
+			"contentid",
+			"fact",
+			"0501",
+			"501",
+			"except:",
+			"print",
+			"Exception, exception",
+			"locals",
+			"print ",
+			"green card",
+			"uscis",
+			"+samsung",
+			"getpath()",
+			"your",
+			"you",
+			"cagematch",
+			"PlayerCam",
+			"FixedCam1",
+			"10",
+			"0",
+			"ReverseCam",
+			"ffmpeg",
+			"OrbitCam1",
+			"OUTPUT_BASE",
+			"~/Dropbox/RBD/Trailer/Footage",
+			"ReverseCam",
+			"PlayerCam",
+			"dev-936",
+			"nodechef",
+			"getexternalfilesdirs",
+			"keystore",
+			"address",
+			"milvia",
+			"long",
+			"pport",
+			"nodechef",
+			"\\ ",
+			"android",
+			"keystore",
+			"\\\"",
+			"\\ ",
+			"\\",
+			"wild cali",
+			"paiduntil",
+			"activetheoryinc",
+			"RNPK0210",
+			"0210",
+			"vancouver",
+			"pport",
+			"fb",
+			"serial=",
+			":",
+			"parse.com",
+			"end workout",
+			"pixflat",
+			"floorcache",
+			"pixflat",
+			"deployfinalpath",
+			"buildpath",
+			"db",
+			".unity\"",
+			"''",
+			"manga",
+			"adjacent to target hex",
+			"Spawn",
+			"Bal'Zan",
+			"510",
+			"usa",
+			"zoako",
+			"grads",
+			"intl",
+			"kami",
+			"kubectl",
+			"icg",
+			"network",
+			"nodechef",
+			"application_ID",
+			"serverurl",
+			"long-term",
+			"long term",
+			"jump",
+			"breakout/Assets/Plugins/BitGym",
+			"breakout",
+			"Assets/",
+			"angelhack/Assets",
+			"Sign Up",
+			"mids.auth.signup",
+			"auth.agree",
+			"sign up",
+			"Sign up",
+			"log in",
+			"Log In",
+			"LOGIN",
+			"clienterror",
+			"this.setstate",
+			"mids.Auth."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 130.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "cbweb.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"dnd",
+				"Dropbox/Personal/dnd.txt"
+			],
+			[
+				"citi",
+				"source_korc/source/essays/citiesppl.md"
+			],
+			[
+				"unitcard",
+				"source_korc/source/_layouts/ds/unitcard.html"
+			],
+			[
+				"units_ep",
+				"source_korc/source/dicestorm/game/units_epic.html"
+			],
+			[
+				"ds-un",
+				"source_korc/source/styles/ds-unit.css"
+			],
+			[
+				"gamehea",
+				"source_korc/source/_includes/ds/gameheadcontent.html"
+			],
+			[
+				"rules",
+				"source_korc/source/dicestorm/game/rules.md"
+			],
+			[
+				"gamehead",
+				"source_korc/source/_includes/ds/gameheadcontent.html"
+			],
+			[
+				"units",
+				"source_korc/source/styles/ds-unit.css"
+			],
+			[
+				"units_epic",
+				"source_korc/source/dicestorm/game/units_epic.html"
+			],
+			[
+				"core",
+				"source_korc/source/styles/core.css"
+			],
+			[
+				"headconte",
+				"source_korc/source/_includes/headcontent.html"
+			],
+			[
+				"post",
+				"source_korc/source/_includes/postheadcontent.html"
+			],
+			[
+				"langu",
+				"source_korc/source/essays/languageliving.md"
+			],
+			[
+				"where",
+				"source_korc/source/essays/fromwhere.md"
+			],
+			[
+				"eyes",
+				"source_korc/source/essays/eyes.md"
+			],
+			[
+				"whatido",
+				"source_korc/source/essays/whatido.md"
+			],
+			[
+				"rentsc",
+				"Dropbox/Personal/Web Development/rentscraper.py"
+			],
+			[
+				"lang",
+				"source_korc/source/essays/languageliving.md"
+			],
+			[
+				"cities",
+				"source_korc/source/essays/citiesppl.md"
+			],
+			[
+				"dicestorm",
+				"Dropbox/Dicestorm/README.txt"
+			],
+			[
+				"unit",
+				"source_korc/source/styles/ds-unit.css"
+			],
+			[
+				"units_epi",
+				"source_korc/source/dicestorm/game/units_epic.html"
+			],
+			[
+				"nomadin",
+				"source_korc/source/_includes/nomadintro.md"
+			],
+			[
+				"about",
+				"source_korc/source/about/index.md"
+			],
+			[
+				"config",
+				"source_korc/source/_config.yml"
+			],
+			[
+				"nomad",
+				"source_korc/source/_includes/nomadintro.md"
+			],
+			[
+				"games",
+				"source_korc/source/essays/gamesthoughtbox.md"
+			],
+			[
+				"white",
+				"source_korc/source/essays/white.md"
+			],
+			[
+				"eye",
+				"source_korc/source/essays/eyes.md"
+			],
+			[
+				"service",
+				"source_korc/source/webtoys/servicelookup.sh"
+			],
+			[
+				"androidmode",
+				"source_korc/source/essays/android_modem.md"
+			],
+			[
+				"gamers",
+				"source_korc/source/essays/gamersandyou.md"
+			],
+			[
+				"bit",
+				"Dropbox/Personal/bitgymstorm.txt"
+			],
+			[
+				"over",
+				"source_korc/source/essays/overpowered.md"
+			],
+			[
+				"toys",
+				"source_korc/source/essays/toys.md"
+			],
+			[
+				"toy",
+				"source_korc/source/essays/toys.md"
+			],
+			[
+				"bgstorm",
+				"Dropbox/Personal/bitgymstorm.txt"
+			],
+			[
+				"bitgym",
+				"Dropbox/bitgym_release/MotionSDK_1.0.2.0/docs/BitGymMotionSDKDocs.html"
+			],
+			[
+				"product",
+				"Dropbox/Personal/product_ideas.txt"
+			],
+			[
+				"international",
+				"source_korc/source/essays/internationalfounder.md"
+			],
+			[
+				"flash",
+				"Dropbox/Flash-App Workout Master/script_and_stage/flash_validate_upload.py"
+			],
+			[
+				"data",
+				"Dropbox/Personal/data_brainstorm.txt"
+			],
+			[
+				"authpa",
+				"ocuwebserver/src/views/AuthPage.js"
+			],
+			[
+				"string",
+				"ocuwebserver/src/strings.js"
+			],
+			[
+				"strings",
+				"common/node_modules/lodash/_stringSize.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

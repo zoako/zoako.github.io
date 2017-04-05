@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.ico",
+				"*.htaccess",				
+				"*.git",
+				"*.png",
+				"*.svg"
+			],
+			"folder_exclude_patterns":
+			[
+				"output",
+				"_site"
+			],
+			"follow_symlinks": true,
+			"path": "/Users/keerthik/projects/colorballsweb"
+		}
+	]	
+}
