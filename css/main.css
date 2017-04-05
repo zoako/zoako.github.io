@@ -140,6 +140,11 @@ pre {
     .mobile-only {
       display: block; } }
 
+.backup {
+  position: absolute;
+  display: block;
+  z-index: -1; }
+
 .page-content {
   min-height: 400px; }
 
