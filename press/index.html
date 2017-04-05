@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -76,58 +75,28 @@
 <h3 id="standard-price">Standard Price</h3>
 <p>Undisclosed</p>
 
-=======
----
-layout: press
-game:
-  title: Color Balls
-  banner: "img/game-banner.png"
-videos:
-  - title: "Beta Gameplay"
-    link: "4gUOIF9Yi70"
-  - title: "Greenlight Teaser Trailer"
-    link: "atXl1W3BZzs"
-  - title: "Greenlight Gameplay Trailer"
-    link: "lCQqD1AIPks"
----
-
-<div class="press-banner"
-     style="background-image: url({{ site.baseurl }}/{{ page.game.banner }})"></div>
-<div id="press-factsheet" class="press-block text">
-  <h2>Factsheet</h2>
-  {% markdown press/Color Balls/facts.md %}
->>>>>>> bbb942a7ec090acdebdc7f1a947aca6d55f0fdf5
 </div>
 <div class="right-column">
   <div id="press-description" class="press-block text">
   <h2>Description</h2>
-<<<<<<< HEAD
   <p>Color Balls is a high-speed anti-gravity racing game with a colorful twist. Set in a vibrant abstract universe, the colors of your ball and the world determine how fast (or slow) you get to go. Modify the track with bright colors as you zip through tunnels planning the perfect route for your next lap.</p>
 
 <p>As Zoako Studios first official title, Color Balls embodies what we as a studio want to see in a game: Simple but innovative mechanics that stretch your creativity. Each tunnel starts out with very simple features, and some pools of paint you can pick up and mix. Once you have picked up paint you quickly change the traits of the tunnel creating a variety of colorful paths. In your next pass-through, an ideal path can quickly turn into a death trap if you didn’t plan well enough or make a wrong turn.</p>
 
-=======
-  {% markdown press/Color Balls/description.md %}
->>>>>>> bbb942a7ec090acdebdc7f1a947aca6d55f0fdf5
   </div>
 
   <div id="press-history" class="press-block text">
   <h2>History</h2>
-<<<<<<< HEAD
   <p>Color Balls was initially conceptualized in 2013. The game is currently in open beta.</p>
 
 <p>A Steam Greenlight submission for the PC version is planned in November 2016.</p>
 
 <p>A final public release to storefronts is scheduled for Q2 2017.</p>
 
-=======
-  {% markdown press/Color Balls/history.md %}
->>>>>>> bbb942a7ec090acdebdc7f1a947aca6d55f0fdf5
   </div>
 
   <div id="press-features" class="press-block text">
   <h2>Features</h2>
-<<<<<<< HEAD
   <p>(the following reflect features intended in final release)</p>
 
 <ul>
@@ -148,16 +117,12 @@ videos:
   </li>
 </ul>
 
-=======
-  {% markdown press/Color Balls/features.md %}
->>>>>>> bbb942a7ec090acdebdc7f1a947aca6d55f0fdf5
   </div>
 </div>
 <div id="full-width">
   <div id="press-videos">
   <h2>Videos</h2>
   <ul class="post-list">
-<<<<<<< HEAD
     
       <li>
         <h3 class="post-link">Beta Gameplay</h3>
@@ -222,24 +187,12 @@ videos:
 </svg>
 </span><span class="username">Youtube</span></a>
 .
-=======
-    {% for video in page.videos %}
-      <li>
-        <h3 class="post-link">{{ video.title }}</h3>
-        <iframe width="560" height="315" src="https://youtube.com/embed/{{ video.link }}" frameborder="0" allowfullscreen>
-        </iframe>
-      </li>
-    {% endfor %}
-  </ul>
-  Find more videos on our channel at {% include icon-youtube.html username=site.yt_username %}.
->>>>>>> bbb942a7ec090acdebdc7f1a947aca6d55f0fdf5
   </div>
 
   <div id="press-screenshots">
   <h2>Screenshots</h2>
   <a href="">Download all as zip</a>
   <div class="image-container">
-<<<<<<< HEAD
     
         <div  class="screenshot" 
               style="background-image: url(/press/screenshots/FixedCam150.png)"></div>
@@ -256,19 +209,12 @@ videos:
         <div  class="screenshot" 
               style="background-image: url(/press/screenshots/ReverseCam5119.png)"></div>
     
-=======
-    {% for screen in site.static_files %}{% if screen.path contains 'press/screenshots' %}
-        <div  class="screenshot" 
-              style="background-image: url({{ screen.path }})"></div>
-    {% endif %}{% endfor %}
->>>>>>> bbb942a7ec090acdebdc7f1a947aca6d55f0fdf5
   </div>
 
   <div id="press-branding">
   <h2>Logos & Icon</h2>
   <a href="">Download all as zip</a>
   <div class="image-container">
-<<<<<<< HEAD
     
         <div  class="screenshot" 
               style="background-image: url(/press/branding/color-balls-logo-text.png)"></div>
@@ -276,31 +222,18 @@ videos:
         <div  class="screenshot" 
               style="background-image: url(/press/branding/color-balls-logo.png)"></div>
     
-=======
-    {% for image in site.static_files %}{% if image.path contains 'press/branding' %}
-        <div  class="screenshot" 
-              style="background-image: url({{ image.path }})"></div>
-    {% endif %}{% endfor %}
->>>>>>> bbb942a7ec090acdebdc7f1a947aca6d55f0fdf5
   </ul>
   </div>
 
   <div id="press-about">
-<<<<<<< HEAD
   <h2>About Zoako Studios</h2>
   <p>Zoako Studios is an independent game development studio founded and operated by Keerthik O and John Watson. We focus on creative mechanics that are simple and elegant but fresh and unique at the same time.</p>
 
   <p>Learn more about Zoako Studios <a href="/about/">here</a>.</p>
-=======
-  <h2>About {{ site.developer }}</h2>
-  {% markdown press/Color Balls/about_developer.md %}
-  <p>Learn more about Zoako Studios <a href="{{ site.baseurl }}/about/">here</a>.</p>
->>>>>>> bbb942a7ec090acdebdc7f1a947aca6d55f0fdf5
   </div>
 
   <div id="press-credits">
   <h2>Color Balls Credits</h2>
-<<<<<<< HEAD
   <h3 id="john-zoator-watson">John ‘Zoator’ Watson</h3>
 <p>Programming, Graphics Systems, Level Design, Design</p>
 
@@ -313,15 +246,11 @@ videos:
 <h3 id="various-contractors">Various Contractors</h3>
 <p>Art</p>
 
-=======
-  {% markdown press/Color Balls/credits.md %}
->>>>>>> bbb942a7ec090acdebdc7f1a947aca6d55f0fdf5
   </div>
 
   <div id="press-contact">
     <h2>Contact</h2>
     <ul>
-<<<<<<< HEAD
     <li>Inquiries: <a href="mailto:colorballs@zoako.com">colorballs@zoako.com</a></li>
     <li>Website: <a href="http://localhost:4000">Color Balls</a></li>
 
@@ -385,7 +314,6 @@ videos:
     <footer class="site-footer">
 
   <div class="wrapper">
-    <hr>
     <div class="footer-col-wrapper">
       <div class="footer-col">
         <ul class="contact-list">
@@ -524,16 +452,3 @@ videos:
   </body>
 
 </html>
-=======
-    <li>Inquiries: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-    <li>Website: <a href="{{ site.url }}">{{ page.game.title }}</a></li>
-{% if site.twitter_username %}
-    <li>{% include icon-twitter.html username=site.twitter_username %}</li>
-{% endif %}
-{% if site.fb_username %}
-    <li>{% include icon-facebook.html username=site.fb_username %}</li>
-{% endif %}
-    </ul>
-  </div>
-</div>
->>>>>>> bbb942a7ec090acdebdc7f1a947aca6d55f0fdf5
