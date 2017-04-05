@@ -1,0 +1,47 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Color Balls
+email: colorballs@zoako.com
+description: > # this means to ignore newlines until "baseurl:"
+  Color Balls is a high stakes 3D puzzle racer for PC and Mac,
+  developed by Zoako Studios.
+developer: Zoako Studios
+developer_url: "http://www.zoako.com"
+url: "http://www.colorballsgame.com" # the base hostname & protocol for your site
+twitter_username: colorballsgame
+fb_username: colorballsthegame
+yt_username: UCa6MtC_CvkEyHDIRlhswCfA
+greenlight_id: 897458989
+# Build settings
+markdown: kramdown
+# # Welcome to Jekyll!
+# #
+# # This config file is meant for settings that affect your whole blog, values
+# # which you are expected to set up once and rarely need to edit after that.
+# # For technical reasons, this file is *NOT* reloaded automatically when you use
+# # 'jekyll serve'. If you change this file, please restart the server process.
+
+# # Site settings
+# title: Color Balls
+# email: colorballs@zoako.com
+# description: > # this means to ignore newlines until "baseurl:"
+#   Color Balls is a high stakes 3D puzzle racer for PC and Mac,
+#   developed by Zoako Studios.
+# developer: Zoako Studios
+# developer_url: "http://www.zoako.com"
+# # the base hostname & protocol for your site
+# baseurl: "/colorballsweb" # the subpath of your site, e.g. /blog
+# url: "http://colorballsgame.com"
+# # NOTE: Should replace with the below when we get the domain
+# twitter_username: colorballsgame
+# fb_username: colorballsthegame
+# yt_username: UCa6MtC_CvkEyHDIRlhswCfA
+
+# # Build settings
+# markdown: kramdown

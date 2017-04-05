@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="press-page-content">
+      <div class="press-wrapper">
+        <div class="press-navigation">
+          <h2>{{ page.game.title }}</h2>
+          <h3>press kit</h3>
+          <ul class="nav-list">
+            <li><a href="#press-factsheet">Factsheet</a></li>
+            <li><a href="#press-description">Description</a></li>
+            <li><a href="#press-history">History</a></li>
+            <li><a href="#press-features">Features</a></li>
+            <li><a href="#press-videos">Videos</a></li>
+            <li><a href="#press-screenshots">Screenshots</a></li>
+            <li><a href="#press-branding">Branding</a></li>
+            <li><a href="#press-credits">Credits</a></li>
+            <li><a href="#press-about">About {{ site.developer }}</a></li>
+            <li><a href="#press-contact">Contact</a></li>
+          </ul>
+          <p class='mobile-only'>not optimized for mobile :(</p>
+        </div>
+        <div class="press-content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

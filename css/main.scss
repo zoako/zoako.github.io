@@ -1,0 +1,76 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Raleway-Light'; /*a name to be used later*/
+  src: url('/resources/fonts/Raleway/Raleway-Light.ttf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'Raleway'; /*a name to be used later*/
+  src: url('/resources/fonts/Raleway/Raleway-Medium.ttf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'Raleway-Bold'; /*a name to be used later*/
+  src: url('/resources/fonts/Raleway/Raleway-Bold.ttf'); /*URL to font*/
+}
+
+
+// Our variables
+$base-font-family: "Raleway-Light", Helvetica, Arial, sans-serif;
+$press-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$press-font-size:  13px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     20px;
+
+$text-color:       #2e2e2e;
+$background-color-outer: #202020;
+$background-color-light: #eeeeee;
+$background-color-dark: #c8c8c8;
+$background-color-logo: #ffffff;
+$brand-color:      #2a7aff;
+$brand-color2:     #ff2a3a;
+$brand-color3:     #28c537;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    1100px;
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .pooper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting",
+        "press",
+        "cbsite"
+;
