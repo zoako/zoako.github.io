@@ -1,4 +1,10 @@
 **WIP: deploying first, readme later**
+jekyll build
+cp -rf _site/* ../cbwebbackup/
+cd ../cbwebbackup
+git add -A .
+git commit -a -m "fixing stuff"
+git push origin master
 
 # zoako.gitlab.io
 This is the source content for a Jekyll generated static site.
